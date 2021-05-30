@@ -11,23 +11,23 @@ const NavBar = () => {
       <a
         class="nav-link link-secondary"
         style={{ paddingTop: 20 }}
-        href="Portfolio/about"
+        href="/about"
       >
         About Me
       </a>
-      <a class="nav-link link-secondary" href="Portfolio/education">
+      <a class="nav-link link-secondary" href="/education">
         Education
       </a>
-      <a class="nav-link link-secondary" href="Portfolio/experience">
+      <a class="nav-link link-secondary" href="/experience">
         Project Experience
       </a>
-      <a class="nav-link link-secondary" href="Portfolio/work">
+      <a class="nav-link link-secondary" href="/work">
         Work Experience
       </a>
-      <a class="nav-link link-secondary" href="Portfolio/skills">
+      <a class="nav-link link-secondary" href="/skills">
         Skills
       </a>
-      <a class="nav-link link-secondary" href="Portfolio/award">
+      <a class="nav-link link-secondary" href="/award">
         Awards && Volunteer
       </a>
     </div>

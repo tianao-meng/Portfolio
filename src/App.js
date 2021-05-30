@@ -21,17 +21,14 @@ class App extends Component {
             </div>
             <div class="col-10 right main-wrapper">
               <Switch>
-                <Route path="Portfolio/about" component={About}></Route>
-                <Route path="Portfolio/education" component={Education}></Route>
-                <Route
-                  path="Portfolio/experience"
-                  component={Experience}
-                ></Route>
-                <Route path="Portfolio/work" component={Work}></Route>
-                <Route path="Portfolio/skills" component={Skills}></Route>
-                <Route path="Portfolio/award" component={Award}></Route>
-                <Redirect from="Portfolio/" exact to="Portfolio/about" />
-                <Redirect to="Portfolio/not-found" />
+                <Route path="/about" component={About}></Route>
+                <Route path="/education" component={Education}></Route>
+                <Route path="/experience" component={Experience}></Route>
+                <Route path="/work" component={Work}></Route>
+                <Route path="/skills" component={Skills}></Route>
+                <Route path="/award" component={Award}></Route>
+                <Redirect from="/" exact to="/about" />
+                <Redirect to="/not-found" />
               </Switch>
             </div>
           </div>
