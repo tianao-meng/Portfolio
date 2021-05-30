@@ -22,35 +22,31 @@ class App extends Component {
             <div class="col-10 right main-wrapper">
               <Switch>
                 <Route
-                  path="https://tianao-meng.github.io/about"
+                  path="tianao-meng.github.io/about"
                   component={About}
                 ></Route>
                 <Route
-                  path="https://tianao-meng.github.io/education"
+                  path="tianao-meng.github.io/education"
                   component={Education}
                 ></Route>
                 <Route
-                  path="https://tianao-meng.github.io/experience"
+                  path="tianao-meng.github.io/experience"
                   component={Experience}
                 ></Route>
                 <Route
-                  path="https://tianao-meng.github.io/work"
+                  path="tianao-meng.github.io/work"
                   component={Work}
                 ></Route>
                 <Route
-                  path="https://tianao-meng.github.io/skills"
+                  path="tianao-meng.github.io/skills"
                   component={Skills}
                 ></Route>
                 <Route
-                  path="https://tianao-meng.github.io/award"
+                  path="tianao-meng.github.io/award"
                   component={Award}
                 ></Route>
-                <Redirect
-                  from="/"
-                  exact
-                  to="https://tianao-meng.github.io/about"
-                />
-                <Redirect to="https://tianao-meng.github.io/not-found" />
+                <Redirect from="/" exact to="tianao-meng.github.io/about" />
+                <Redirect to="tianao-meng.github.io/not-found" />
               </Switch>
             </div>
           </div>
