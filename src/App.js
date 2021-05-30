@@ -21,32 +21,17 @@ class App extends Component {
             </div>
             <div class="col-10 right main-wrapper">
               <Switch>
+                <Route path="Portfolio/about" component={About}></Route>
+                <Route path="Portfolio/education" component={Education}></Route>
                 <Route
-                  path="tianao-meng.github.io/about"
-                  component={About}
-                ></Route>
-                <Route
-                  path="tianao-meng.github.io/education"
-                  component={Education}
-                ></Route>
-                <Route
-                  path="tianao-meng.github.io/experience"
+                  path="Portfolio/experience"
                   component={Experience}
                 ></Route>
-                <Route
-                  path="tianao-meng.github.io/work"
-                  component={Work}
-                ></Route>
-                <Route
-                  path="tianao-meng.github.io/skills"
-                  component={Skills}
-                ></Route>
-                <Route
-                  path="tianao-meng.github.io/award"
-                  component={Award}
-                ></Route>
-                <Redirect from="tianao-meng.github.io/" exact to="/about" />
-                <Redirect to="tianao-meng.github.io/not-found" />
+                <Route path="Portfolio/work" component={Work}></Route>
+                <Route path="Portfolio/skills" component={Skills}></Route>
+                <Route path="Portfolio/award" component={Award}></Route>
+                <Redirect from="Portfolio/" exact to="Portfolio/about" />
+                <Redirect to="Portfolio/not-found" />
               </Switch>
             </div>
           </div>
