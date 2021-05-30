@@ -15,22 +15,19 @@ const NavBar = () => {
       >
         About Me
       </a>
-      <a class="nav-link link-secondary" href="tianao-meng.github.io/education">
+      <a class="nav-link link-secondary" href="/education">
         Education
       </a>
-      <a
-        class="nav-link link-secondary"
-        href="tianao-meng.github.io/experience"
-      >
+      <a class="nav-link link-secondary" href="/experience">
         Project Experience
       </a>
-      <a class="nav-link link-secondary" href="tianao-meng.github.io/work">
+      <a class="nav-link link-secondary" href="/work">
         Work Experience
       </a>
-      <a class="nav-link link-secondary" href="tianao-meng.github.io/skills">
+      <a class="nav-link link-secondary" href="/skills">
         Skills
       </a>
-      <a class="nav-link link-secondary" href="tianao-meng.github.io/award">
+      <a class="nav-link link-secondary" href="/award">
         Awards && Volunteer
       </a>
     </div>
