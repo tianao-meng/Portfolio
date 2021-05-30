@@ -21,14 +21,36 @@ class App extends Component {
             </div>
             <div class="col-10 right main-wrapper">
               <Switch>
-                <Route path="/about" component={About}></Route>
-                <Route path="/education" component={Education}></Route>
-                <Route path="/experience" component={Experience}></Route>
-                <Route path="/work" component={Work}></Route>
-                <Route path="/skills" component={Skills}></Route>
-                <Route path="/award" component={Award}></Route>
-                <Redirect from="/" exact to="/about" />
-                <Redirect to="/not-found" />
+                <Route
+                  path="https://tianao-meng.github.io/about"
+                  component={About}
+                ></Route>
+                <Route
+                  path="https://tianao-meng.github.io/education"
+                  component={Education}
+                ></Route>
+                <Route
+                  path="https://tianao-meng.github.io/experience"
+                  component={Experience}
+                ></Route>
+                <Route
+                  path="https://tianao-meng.github.io/work"
+                  component={Work}
+                ></Route>
+                <Route
+                  path="https://tianao-meng.github.io/skills"
+                  component={Skills}
+                ></Route>
+                <Route
+                  path="https://tianao-meng.github.io/award"
+                  component={Award}
+                ></Route>
+                <Redirect
+                  from="/"
+                  exact
+                  to="https://tianao-meng.github.io/about"
+                />
+                <Redirect to="https://tianao-meng.github.io/not-found" />
               </Switch>
             </div>
           </div>
