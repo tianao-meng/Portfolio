@@ -8,28 +8,28 @@ const NavBar = () => {
         src="Tianao.jpg"
         style={{ width: 120, height: 170, borderRadius: 50 }}
       ></img>
-      <a
+      <Link
         class="nav-link link-secondary"
         style={{ paddingTop: 20 }}
-        href="/about"
+        to="/about"
       >
         About Me
-      </a>
-      <a class="nav-link link-secondary" href="/education">
+      </Link>
+      <Link class="nav-link link-secondary" to="/education">
         Education
-      </a>
-      <a class="nav-link link-secondary" href="/experience">
+      </Link>
+      <Link class="nav-link link-secondary" to="/experience">
         Project Experience
-      </a>
-      <a class="nav-link link-secondary" href="/work">
+      </Link>
+      <Link class="nav-link link-secondary" to="/work">
         Work Experience
-      </a>
-      <a class="nav-link link-secondary" href="/skills">
+      </Link>
+      <Link class="nav-link link-secondary" to="/skills">
         Skills
-      </a>
-      <a class="nav-link link-secondary" href="/award">
+      </Link>
+      <Link class="nav-link link-secondary" to="/award">
         Awards && Volunteer
-      </a>
+      </Link>
     </div>
   );
 };
