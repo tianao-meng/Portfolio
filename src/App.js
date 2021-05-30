@@ -28,7 +28,7 @@ class App extends Component {
                 <Route path="/skills" component={Skills}></Route>
                 <Route path="/award" component={Award}></Route>
                 <Redirect from="/" exact to="/about" />
-                <Redirect to="/not-found" />
+                {/* <Redirect to="/not-found" /> */}
               </Switch>
             </div>
           </div>
