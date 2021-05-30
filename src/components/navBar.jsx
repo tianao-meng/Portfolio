@@ -1,13 +1,11 @@
 import React, { Component } from "react";
 import { Link, NavLink } from "react-router-dom";
+import me from "./Tianao.jpg";
 
 const NavBar = () => {
   return (
     <div class="section">
-      <img
-        src="Tianao.jpg"
-        style={{ width: 120, height: 170, borderRadius: 50 }}
-      ></img>
+      <img src={me} style={{ width: 120, height: 170, borderRadius: 50 }}></img>
       <Link
         class="nav-link link-secondary"
         style={{ paddingTop: 20 }}
