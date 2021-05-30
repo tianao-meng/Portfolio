@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.left {
+  background: #fff8dc;
+}
+
+.right {
+  background: white;
+}
+
+.main-wrapper {
+  height: 100vh;
+}
+
+.section {
+  font-family: "Courier New", Courier, monospace;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
