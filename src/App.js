@@ -21,36 +21,14 @@ class App extends Component {
             </div>
             <div class="col-10 right main-wrapper">
               <Switch>
-                <Route
-                  path={`${process.env.PUBLIC_URL}/about`}
-                  component={About}
-                ></Route>
-                <Route
-                  path={`${process.env.PUBLIC_URL}/education`}
-                  component={Education}
-                ></Route>
-                <Route
-                  path={`${process.env.PUBLIC_URL}/experience`}
-                  component={Experience}
-                ></Route>
-                <Route
-                  path={`${process.env.PUBLIC_URL}/work`}
-                  component={Work}
-                ></Route>
-                <Route
-                  path={`${process.env.PUBLIC_URL}/skills`}
-                  component={Skills}
-                ></Route>
-                <Route
-                  path={`${process.env.PUBLIC_URL}/award`}
-                  component={Award}
-                ></Route>
-                <Redirect
-                  from="/"
-                  exact
-                  to={`${process.env.PUBLIC_URL}/about`}
-                />
-                <Redirect to={`${process.env.PUBLIC_URL}/not-found`} />
+                <Route path="/about" component={About}></Route>
+                <Route path="/education" component={Education}></Route>
+                <Route path="/experience" component={Experience}></Route>
+                <Route path="/work" component={Work}></Route>
+                <Route path="/skills" component={Skills}></Route>
+                <Route path="/award" component={Award}></Route>
+                <Redirect from="/" exact to="/about" />
+                <Redirect to="/not-found" />
               </Switch>
             </div>
           </div>
