@@ -22,31 +22,35 @@ class App extends Component {
             <div class="col-10 right main-wrapper">
               <Switch>
                 <Route
-                  path="tianao-meng.github.io/about"
+                  path={`${process.env.PUBLIC_URL}/about`}
                   component={About}
                 ></Route>
                 <Route
-                  path="tianao-meng.github.io/education"
+                  path={`${process.env.PUBLIC_URL}/education`}
                   component={Education}
                 ></Route>
                 <Route
-                  path="tianao-meng.github.io/experience"
+                  path={`${process.env.PUBLIC_URL}/experience`}
                   component={Experience}
                 ></Route>
                 <Route
-                  path="tianao-meng.github.io/work"
+                  path={`${process.env.PUBLIC_URL}/work`}
                   component={Work}
                 ></Route>
                 <Route
-                  path="tianao-meng.github.io/skills"
+                  path={`${process.env.PUBLIC_URL}/skills`}
                   component={Skills}
                 ></Route>
                 <Route
-                  path="tianao-meng.github.io/award"
+                  path={`${process.env.PUBLIC_URL}/award`}
                   component={Award}
                 ></Route>
-                <Redirect from="/" exact to="tianao-meng.github.io/about" />
-                <Redirect to="tianao-meng.github.io/not-found" />
+                <Redirect
+                  from="/"
+                  exact
+                  to={`${process.env.PUBLIC_URL}/about`}
+                />
+                <Redirect to={`${process.env.PUBLIC_URL}/not-found`} />
               </Switch>
             </div>
           </div>
