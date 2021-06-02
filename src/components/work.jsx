@@ -16,8 +16,8 @@ const Work = () => {
           </h5>
           <ul>
             <li>
-              Collecting sales data of all Midea Group and Haier washing
-              machines models on Tao Bao and JD.
+              Collected sales data of all Midea Group and Haier washing machines
+              models on Tao Bao and JD.
             </li>
             <li>
               Processed collected sales data of different price range using
@@ -48,7 +48,7 @@ const Work = () => {
               ACCPPAC
             </li>
             <li>
-              Other project related affairs assigned by project manager or
+              Other projects related affairs assigned by project manager or
               project engineer
             </li>
           </ul>
