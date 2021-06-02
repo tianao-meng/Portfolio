@@ -16,12 +16,17 @@ const Work = () => {
           </h5>
           <ul>
             <li>
-              Collected sales data of all Midea Group and Haier washing machines
-              models on Tao Bao and JD.
+              Collected online sales data of Midea Group and Haier washing
+              machines models on Tao Bao and JD.
             </li>
             <li>
-              Processed collected sales data of different price range using
-              Excel.
+              Processed the collected sales data for each model using Excel and
+              compared the sales results with Haier based on different price
+              ranges.
+            </li>
+            <li>
+              Suggested the weakness of the products price layout for Midea
+              Group.
             </li>
           </ul>
         </div>

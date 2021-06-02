@@ -10,8 +10,8 @@ const Education = () => {
         <div>
           <h2 style={{ fontWeight: "bold" }}>
             Sichuan University
-            <span style={{ paddingLeft: 230, fontSize: 20 }}>
-              Jul 2013 - Jul 2017
+            <span style={{ paddingLeft: 225, fontSize: 20 }}>
+              Sept 2013 - Jul 2017
             </span>
           </h2>
         </div>

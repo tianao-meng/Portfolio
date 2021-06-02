@@ -32,8 +32,8 @@ class Abouts extends Component {
             <p style={{ fontSize: 20, paddingTop: 20 }}>
               Hello, This is Tianao Meng. I graduated from University of
               Waterloo with a Master degree in Mechanical and Mechatronics
-              Engineering in December 2020. I am seeking software position
-              starting from June 2021.
+              Engineering in December 2020. I am seeking Software Development
+              Engineer starting from June 2021.
             </p>
             <div class="row">
               <div class="col-2">

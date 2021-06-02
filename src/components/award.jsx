@@ -21,7 +21,7 @@ const Award = () => {
           </li>
           <li style={{ fontSize: 20 }}>
             Volunteer of Support Education in Daliang Mountains, Xichang,
-            Sichuan province
+            Sichuan Province
             <span style={{ paddingLeft: 7, fontSize: 20 }}>Oct. 2016</span>
           </li>
         </ul>
