@@ -1,8 +1,8 @@
 //import logo from "./logo.svg";
 import "./App.css";
 import { Route, Redirect, Switch } from "react-router-dom";
-import { HashRouter } from "react-router-dom";
 import React, { Component } from "react";
+
 import About from "./components/about";
 import Education from "./components/education";
 import Experience from "./components/experience";
@@ -21,7 +21,7 @@ class App extends Component {
               <NavBar />
             </div>
             <div class="col-10 right main-wrapper">
-              <HashRouter>
+              <Switch>
                 <Route path="/about" component={About}></Route>
                 <Route path="/education" component={Education}></Route>
                 <Route path="/experience" component={Experience}></Route>
@@ -30,7 +30,7 @@ class App extends Component {
                 <Route path="/award" component={Award}></Route>
                 <Redirect from="*" exact to="/about" />
                 {/* <Redirect to="/not-found" /> */}
-              </HashRouter>
+              </Switch>
             </div>
           </div>
         </div>
