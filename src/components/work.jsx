@@ -37,7 +37,7 @@ const Work = () => {
           <h5 style={{ fontWeight: "bold" }}>
             Project Assistant at Herrenknecht AG
             <span style={{ paddingLeft: 434, fontSize: 20 }}>
-              Sept. 2017 – Dec. 2018
+              Sept. 2018 – Dec. 2018
             </span>
           </h5>
           <ul>
